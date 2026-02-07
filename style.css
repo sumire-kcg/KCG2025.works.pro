@@ -33,7 +33,7 @@
 
 }
 /* スマホ用だけ上書き */
-@media (max-width: 768px){
+@media (max-width: 767px){
     .option-box {
         flex-direction: column;
         align-items: center;
@@ -61,7 +61,7 @@
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .works-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -258,3 +258,4 @@ video {
     text-align: center;
 
 }
+
