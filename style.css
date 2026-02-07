@@ -13,7 +13,7 @@
 /* メニュー */
 .options {
     background-color: rgb(44, 145, 175);
-
+    text-align: center;
     margin: 20px;
     color: aliceblue;
     padding: 20px 10px;
@@ -21,7 +21,6 @@
     border: none;
     
 }
-
 @media (max-width: 740px) {
     .options {
         margin: 5px;
@@ -32,15 +31,6 @@
     }
 }   
 
-@media (max-width: 480px){
-    .options {
-        flex-direction: column;
-        align-items: center;
-          margin: 10px;
-    }
-}
-
-
 .options:hover {
     background-color: rgb(1, 12, 113);
     cursor: pointer;
@@ -49,6 +39,7 @@
 .option-box {
     display: flex;
     justify-content: center;
+    text-align: center;
 
 }
 /* スマホ用だけ上書き */
@@ -60,11 +51,7 @@
        
     }
 
-@media (max-width: 480px){
-    .option-box {
-        flex-direction: column;
-        align-items: center;
-    }
+
 }
 
 /* タイトル */
@@ -94,13 +81,6 @@
     }
 }
 
-
-
-@media (max-width: 480px) {
-    .works-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 
 .work-card {
@@ -291,8 +271,4 @@ video {
 }
 .tool-scratch{
     text-align: center;
-
 }
-
-
-
