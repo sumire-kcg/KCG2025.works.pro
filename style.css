@@ -21,7 +21,7 @@
     border: none;
     
 }
-<<<<<<< HEAD
+
 @media (max-width: 740px) {
     .options {
         margin: 5px;
@@ -31,7 +31,7 @@
 
     }
 }   
-=======
+
 @media (max-width: 480px){
     .options {
         flex-direction: column;
@@ -39,7 +39,7 @@
           margin: 10px;
     }
 }
->>>>>>> 05b3f99bf65acb86ca675003733971360032e567
+
 
 .options:hover {
     background-color: rgb(1, 12, 113);
@@ -52,7 +52,6 @@
 
 }
 /* スマホ用だけ上書き */
-<<<<<<< HEAD
 @media (max-width: 740px){
     .option-box {
         flex-direction: column;
@@ -61,14 +60,11 @@
        
     }
 
-
-=======
 @media (max-width: 480px){
     .option-box {
         flex-direction: column;
         align-items: center;
     }
->>>>>>> 05b3f99bf65acb86ca675003733971360032e567
 }
 
 /* タイトル */
